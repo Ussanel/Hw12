@@ -19,6 +19,7 @@ html {
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .h_box {
     display: flex;
     flex-direction: row;
@@ -92,7 +93,7 @@ html {
 .contant {
     display: flex;
     justify-content: space-between;
-    align-items:flex-start;
+    align-items: flex-start;
     margin: 0 110px;
 }
 
@@ -118,7 +119,6 @@ html {
 
 .c_title_text span {
     color: #46B1DE;
-    
 }
 
 .c_text {
@@ -178,12 +178,12 @@ html {
 /* carts */
 .carts {
     width: 1180px;
-    margin:-60px 110px 0 110px;
+    margin: -60px 110px 0 110px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    display:flex;
-    justify-content:space-evenly;
+    display: flex;
+    justify-content: space-evenly;
     align-content: flex-start;
     z-index: 10;
 }
@@ -196,6 +196,7 @@ html {
     align-items: center;
     text-align: center;
     color: #46B1DE;
+    margin: 0 15px;
 }
 
 .carts_1 {
@@ -206,7 +207,11 @@ html {
     border: 1px solid #D8E1E1;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+
 }
 
 .carts_2 {
@@ -217,7 +222,11 @@ html {
     border: 1px solid #D8E1E1;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+
 }
 
 .carts_3 {
@@ -228,6 +237,10 @@ html {
     border: 1px solid #D8E1E1;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
 }
 
 /* перевірити блок header last на отступи 
