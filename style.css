@@ -6,8 +6,8 @@
 html {
     width: 1400px;
     background-image: url(/picture/Rectangle\ 1.png);
-background-size: cover;    
-background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body {}
@@ -91,6 +91,7 @@ body {}
     margin-left: 23px;
 }
 
+/* contant */
 .contant {
     display: flex;
     justify-content: space-between;
@@ -170,11 +171,37 @@ body {}
     width: 572px;
     height: 531px;
 }
-.c_right img{
+
+.c_right img {
     position: absolute;
     top: 52px;
-
 }
+
+/* carts */
+.carts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.carts span {
+
+    font-size: 65px;
+    line-height: 76px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Синий */
+
+    color: #46B1DE;
+}
+
+.carts_1 {}
+
+.carts_2 {}
+
+.carts_3 {}
 
 /* перевірити блок header last на отступи 
 підключити стиль Roboto, sofia sans*/
