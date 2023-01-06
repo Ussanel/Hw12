@@ -243,5 +243,39 @@ html {
     flex-direction: row;
 }
 
+/* table */
+.table {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+
+.t_title {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 130%;
+    color: #1B1D1F;
+    text-align: center;
+    margin: 88px auto 5px auto;
+}
+
+.t_title span {
+    color: #46B1DE;
+}
+
+.t_subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.t_box {}
+.t_gap{}
+.t_gap_title{}
+.t_gap_title span{}
+   
 /* перевірити блок header last на отступи 
 підключити стиль Roboto, sofia sans*/
