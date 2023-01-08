@@ -3,10 +3,11 @@
     padding: 0;
 }
 
+/* 1400px; */
 html {
-    width: 1400px;
+    width: 100%;
     background-image: url(/picture/Rectangle\ 1.png);
-    background: size 100vw;
+    background-size: 100vw;
     background-repeat: no-repeat;
 }
 
@@ -87,6 +88,7 @@ html {
 
 .h_bold {
     margin-left: 23px;
+    font-weight: bold;
 }
 
 /* contant */
@@ -428,17 +430,101 @@ height: 22px; */
     text-align: center;
     color: #FFFFFF;
 }
+
 /* picture */
-.picture{
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-margin-bottom: 91px;
+.picture {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 91px;
 }
-.picture img{
-width: 280px;
-height: 128px;
-border-radius: 8px;
+
+.picture img {
+    width: 280px;
+    height: 128px;
+    border-radius: 8px;
 }
+
+/* footer */
+.footer {
+    width: 100vw;
+    height: 28vw;
+    background-image: linear-gradient(91.75deg, #A1C7D4 18.06%, #0680AA 98.16%);
+    padding: 60px 115px 25px 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.footer_left {
+    width: 33%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    color: #0F2D4A;
+}
+
+.footer_right {
+    width: 33%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #FFFFFF;
+}
+
+.footer_boxicon {
+    color: #0F2D4A;
+    font-family: 'Sofia Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    font-size: 26px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.footer_boxicon img {
+    width: 78px;
+    height: 80px;
+}
+
+.footer_boxicon span {
+    text-transform: uppercase;
+    font-size: 39px;
+}
+
+.footer_box_text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_text_left {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer_text_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer_contacts {}
+
+.footer_list {}
+
+.footer_copyright {}
+
 /* перевірити блок header last на отступи 
 підключити стиль Roboto, sofia sans*/
