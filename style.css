@@ -333,7 +333,7 @@ html {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 10px 9px 8px 15px;
-    margin: 87px auto;
+    margin: 90px auto;
 }
 
 .f_box {
@@ -378,6 +378,7 @@ height: 22px; */
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+    margin-bottom: 41px;
 }
 
 .f_btnbox div {
@@ -411,7 +412,7 @@ height: 22px; */
     border: none;
     background: none;
     padding-left: 10px;
-    border-left: #000000 solid 1px;
+    border-left: #000000 solid 2px;
 }
 
 .f_btnbox button {
@@ -427,6 +428,17 @@ height: 22px; */
     text-align: center;
     color: #FFFFFF;
 }
-
+/* picture */
+.picture{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-bottom: 91px;
+}
+.picture img{
+width: 280px;
+height: 128px;
+border-radius: 8px;
+}
 /* перевірити блок header last на отступи 
 підключити стиль Roboto, sofia sans*/
