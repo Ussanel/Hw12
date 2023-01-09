@@ -19,6 +19,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    font-family: 'Sofia Sans', sans-serif;
 }
 
 .h_box {
@@ -26,7 +27,7 @@ html {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    font-family: 'Sofia Sans';
+    font-family: 'Sofia Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 38px;
@@ -57,7 +58,7 @@ html {
     justify-content: space-around;
     align-items: flex-start;
     text-align: center;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -71,13 +72,13 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .h_phone {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;font-family: 'Sofia Sans', sans-serif;
 }
 
 .h_phone img {
@@ -87,7 +88,8 @@ html {
 }
 
 .h_bold {
-    margin-left: 23px;
+    
+    margin-left: 20px;
     font-weight: bold;
 }
 
@@ -100,7 +102,7 @@ html {
 }
 
 .c_left {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     display: flex;
     flex-direction: column;
@@ -135,7 +137,7 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;;
     font-style: normal;
     font-weight: 600;
     font-size: 19px;
@@ -175,13 +177,14 @@ html {
 .c_right img {
     position: absolute;
     top: 52px;
+    z-index: -99;
 }
 
 /* carts */
 .carts {
     width: 1180px;
     margin: -60px 110px 0 110px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     display: flex;
@@ -244,7 +247,7 @@ html {
 
 /* table */
 .table {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
 
@@ -280,7 +283,7 @@ html {
     height: min-content;
     background: #A1C7D4;
     border-radius: 12px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -351,7 +354,7 @@ html {
 .f_h1 {
     /* width: 763px;
     height: 42px; */
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -365,7 +368,7 @@ html {
 .f_h4 {
     /* width: 801px;
 height: 22px; */
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -388,7 +391,7 @@ height: 22px; */
     height: 57px;
     background: rgba(217, 217, 217, 0.71);
     border-radius: 8px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 19px;
@@ -422,7 +425,7 @@ height: 22px; */
     height: 57px;
     background: #46B1DE;
     border-radius: 8px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 19px;
@@ -456,12 +459,11 @@ height: 22px; */
     justify-content: space-between;
     align-items: flex-start;
     position: relative;
-
 }
 
 .footer_left {
     width: 33%;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 135%;
@@ -472,7 +474,7 @@ height: 22px; */
 
 .footer_right {
     width: 33%;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -482,7 +484,7 @@ height: 22px; */
 
 .footer_boxicon {
     color: #0F2D4A;
-    font-family: 'Sofia Sans';
+    font-family: 'Sofia Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -508,7 +510,7 @@ height: 22px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
 .footer_text_left {
@@ -527,11 +529,13 @@ height: 22px; */
     height: 150px;
 }
 
-.footer_contacts {font-weight: 600;
+.footer_contacts {
+    font-weight: 600;
     font-size: 34px;
     line-height: 40px;
-    margin-left:2px;
-margin-bottom: 20px;}
+    margin-left: 2px;
+    margin-bottom: 20px;
+}
 
 .footer_list {
     display: flex;
@@ -541,36 +545,52 @@ margin-bottom: 20px;}
     padding: 5px 5px 0 5px;
     height: 240px;
 }
-.footer_list_phone{
+
+.footer_list_phone {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.footer_list img{
+
+.footer_list img {
     box-sizing: border-box;
     width: 28px;
     height: 28px;
     margin-right: 10px
 }
-.footer_list_icon{
+
+.footer_list_icon {
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.footer_list_insta{
+
+.footer_list_insta {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
 }
-.footer_list_email{ display: flex;
+
+.footer_list_email {
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;}
+    align-items: flex-start;
+}
 
-.footer_copyright {position: absolute;}
+.footer_copyright {
+    font-size: small;right: 0;
+    bottom: 0;
+    position: absolute;
+
+}
+
+.footer_copyright img {
+    margin-right: 5px;
+}
 
 /* перевірити блок header last на отступи 
 підключити стиль Roboto, sofia sans*/
