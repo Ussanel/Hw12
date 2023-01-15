@@ -629,7 +629,7 @@ html {
 
     body {
         margin: 0 auto;
-        height: 100vw;
+        height: 100vh;
 
     }
 
@@ -864,16 +864,16 @@ html {
 
     .f_bigbox {
         box-sizing: border-box;
-    width: 90vw;
-    height: fit-content;
-    background: #FFFFFF;
-    border: 1px solid #D9D9D9;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    border-radius: 10px;
-    padding: 5px 4px 3px 10px;
-    margin: 20px auto;
+        width: 90vw;
+        height: fit-content;
+        background: #FFFFFF;
+        border: 1px solid #D9D9D9;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 10px;
+        padding: 5px 4px 3px 10px;
+        margin: 20px auto;
     }
-    
+
     .f_box {
         box-sizing: border-box;
         /* width: 821px;
@@ -883,7 +883,7 @@ html {
         backdrop-filter: blur(2px);
         border-radius: 10px;
     }
-    
+
     .f_h1 {
         /* width: 763px;
             height: 42px; */
@@ -897,7 +897,7 @@ html {
         color: #1B1D1F;
         margin: 10px auto 5px auto;
     }
-    
+
     .f_h4 {
         /* width: 801px;
         height: 22px; */
@@ -910,7 +910,7 @@ html {
         color: #1B1D1F;
         margin-bottom: 20px;
     }
-    
+
     .f_btnbox {
         display: flex;
         justify-content: space-evenly;
@@ -918,7 +918,7 @@ html {
         flex-direction: column;
         margin-bottom: 10px;
     }
-    
+
     .f_btnbox div {
         width: min-content;
         height: min-content;
@@ -938,22 +938,22 @@ html {
         justify-content: center;
         align-items: center;
     }
-    
+
     .f_btnbox img {
         width: 12px;
         height: 12px;
         box-sizing: content-box;
         padding: 5px;
-    
+
     }
-    
+
     .f_btnbox input {
         border: none;
         background: none;
         padding-left: 5px;
         border-left: #000000 solid 2px;
     }
-    
+
     .f_btnbox button {
         width: 150px;
         height: 20px;
@@ -968,22 +968,111 @@ html {
         color: #FFFFFF;
         border: none;
     }
+
     .picture {
         display: flex;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        margin-bottom: 91px;
+        margin-bottom: 20px;
     }
-    
+
     .picture img {
-        width: 90vw;
+        width: 80vw;
         height: 30vw;
+        margin: 0 auto 5px auto;
         border-radius: 8px;
     }
-    
+
     .footer {
+        height: 100vh;
+        background: linear-gradient(180deg, #A1C7D4 0%, #0680AA 100%);
+        padding: 28px 10px 10px 12px;
+        flex-direction: column;
+    }
+
+    .footer_left {
+        width: 100vw;
+        font-size: 14px;
+    }
+
+    .footer_right {
+        width: 100vw;
+        font-size: 14px;
+    }
+
+    .footer_boxicon {
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+
+    .footer_boxicon img {
+        width: 51px;
+        height: 56px;
+    }
+
+    .footer_boxicon span {
+        font-size: 27px;
+    }
+
+    .footer_box_text {
+        justify-content: space-between;
+    }
+
+    .footer_text_left {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 80px;
+    }
+
+    .footer_text_right {
+        height: 80px;
+        margin-right: 40px;
+    }
+
+    .footer_contacts {
+
+        font-size: 21px;
+        line-height: 25px;
+        margin: 45px 0px 25px 0px;
+
+    }
+
+    .footer_list {
+        padding: 0;
+        height: 180px;
+        font-size: 17px;
+        line-height: 135%;
+        justify-content: space-between;
+    }
+    .footer_list_mob{
+        margin-bottom: 10px;
+    }
+
+    .footer_list img {
+        box-sizing: border-box;
+        width: 23px;
+        height: 23px;
+        margin-right: 13px
+    }
+
+    .footer_list_icon {
         display: none;
     }
 
+
+    .footer_copyright {
+        text-align: right;
+        margin: 36px 44px 36px 0;
+        position:static;
+        font-size: 11px;
+
+    }
+
+    .footer_copyright img {
+        margin-right: 5px;
+    }
 
 }
