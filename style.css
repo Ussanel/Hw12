@@ -139,7 +139,6 @@ html {
     justify-content: space-around;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    ;
     font-style: normal;
     font-weight: 600;
     font-size: 19px;
@@ -609,17 +608,91 @@ html {
 
 @media screen and (max-width:992px) {
     html {
-        background-color: red;
+        background-color: lightblue;
     }
 }
 
 @media screen and (max-width:768px) {
-    html {
-        background-color: green;
+    html{
+        background-size:100vw auto;
+        background-color: none;
+        position: relative;
     }
-}
+    .header_mob{
+        display: none;
+    }
+    .header{
+        margin: 30px 30px 10px 30px;
+    }
+    .h_box{
+        font-size: 25px;
+    }
+    .h_box span{
+        font-size:20px ;
+    }
+    .h_box_center{
+        font-size: 12px;
+    }
+    .h_box_right{
+        font-size: 12px;
+    }
+    .contant {
+        margin: 0 10px;
+    }
+    .c_left{
+        margin: 0 10px;
+        width: 40vw;
 
-@media screen and (max-width:426px) {
+    }
+    .c_right{
+
+    }
+    .c_right_img{
+        background-position-x: left;
+        width: auto;
+        height: 40vh;
+        right:10px;
+        top:21px
+    }
+    .c_right_img_mob{
+        display: none;
+    }
+    .c_title_text{
+        font-size: 20px;
+        margin-bottom: 10px
+    }
+    .c_text{font-size: 15px;
+        margin-bottom: 15px;
+        white-space: nowrap;
+    }
+    .c_text_mob{display: none;}
+    .c_btn_mob{
+        display: none;
+    }
+    .c_btn{
+        font-size: 15px;
+    }
+    .c_btn_1,
+    .c_btn_2{
+        width: 70px;
+        padding: 8px 20px;
+    }
+    .carts{
+        width: 100vw;
+        margin: 30px;
+
+    }
+    .carts span{
+        font-size: 25px;
+        margin: 0
+    }
+    .carts_1,
+    .carts_2,
+    .carts_3 {
+        
+    }
+
+@media screen and (max-width:425px){
     html {
         background-image: url(/back-mob.png);
         background-attachment: scroll;
@@ -776,6 +849,8 @@ html {
 
     .c_right_img_mob {
         margin-top: calc(100vw - 199px - 39px);
+        width: auto;
+        height: 30vh;
     }
 
     .carts {
