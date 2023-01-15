@@ -4,10 +4,10 @@
 }
 
 html {
-    width: 100vw;
     background-image: url(/picture/Rectangle\ 1.png);
     background-size: 100vw;
     background-repeat: no-repeat;
+    background-attachment: scroll;
 
 }
 
@@ -622,7 +622,7 @@ html {
 @media screen and (max-width:426px) {
     html {
         background-image: url(/back-mob.png);
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-color: white;
         position: relative;
     }
@@ -630,6 +630,7 @@ html {
     body {
         margin: 0 auto;
         height: 100vw;
+
     }
 
     .header {
@@ -774,15 +775,91 @@ html {
     }
 
     .c_right_img_mob {
-        margin-top: calc(100vw - 199px - 48px);
+        margin-top: calc(100vw - 199px - 39px);
     }
 
     .carts {
-        display: none;
+        width: 100vw;
+        height: min-content;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5px;
+        flex-direction: column;
+        margin: 0 0 0 0;
+        background-color: white;
+    }
+
+    .carts span {
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 0 5px 0 5px
+    }
+
+    .carts_1,
+    .carts_2,
+    .carts_3 {
+        box-sizing: border-box;
+        width: 70vw;
+        height: min-content;
+        font-size: 12px;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 15px;
+
     }
 
     .table {
-        display: none;
+        margin-top: 15px;
+        background-color: white;
+    }
+
+    .t_title {
+        font-size: 15px;
+        line-height: 130%;
+        margin: 0 auto 5px auto
+    }
+
+    .t_subtitle {
+        font-size: 10px;
+        line-height: 100%;
+        margin-bottom: 5px;
+
+    }
+
+    .t_box {
+        width: 100vw;
+        height: min-content;
+        background: #A1C7D4;
+        padding: 5px 5px;
+        margin: 0;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-column-gap: 0px;
+        grid-row-gap: 5px;
+        grid-auto-flow: row;
+    }
+
+    .t_gap {
+        font-size: 10px;
+        line-height: 10px;
+        padding: 5px;
+        width: 150px;
+        height: 85px;
+    }
+
+    .t_gap_title {
+        font-size: 10px;
+        line-height: 11px;
+        margin-bottom: 5px;
+    }
+
+
+    .t_gap_title span {
+        font-size: 20px;
+        line-height: 8px;
+        margin: 5px;
     }
 
     .form {
@@ -796,5 +873,6 @@ html {
     .footer {
         display: none;
     }
+
 
 }
