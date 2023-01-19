@@ -1470,7 +1470,7 @@ height: 22px; */
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 482px) {
     html {
         background-size: cover
     }
